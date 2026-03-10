@@ -1,4 +1,4 @@
-# Dr. Tanzeel Fatima – Pediatric Appointment Booking
+# Pediatric Appointment Booking
 
 A full-stack appointment booking system for a pediatric clinic, built with Node.js, Express, MongoDB, and Bootstrap.
 
