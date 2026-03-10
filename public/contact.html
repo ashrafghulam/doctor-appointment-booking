@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contact Dr. Tanzeel Fatima – reach out for pediatric consultations via phone, email or the contact form." />
+    <title>Contact | Dr. Tanzeel Fatima – Pediatrician</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-heart-pulse-fill me-1" style="font-size:1rem"></i>Dr. Tanzeel Fatima
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <i class="bi bi-list text-white fs-4"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/appointment.html">Book Appointment</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/contact.html">Contact</a></li>
+                </ul>
+                <a href="/appointment.html" class="btn-glow ms-lg-3 mt-2 mt-lg-0"
+                    style="font-size:.88rem;padding:.55rem 1.5rem"><i class="bi bi-calendar-check"></i> Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container position-relative">
+            <h1>Get in <span
+                    style="background:linear-gradient(135deg,var(--clr-primary),var(--clr-accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent">Touch</span>
+            </h1>
+            <p>We'd love to hear from you. Reach out for any questions about your child's health.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Info Cards -->
+                <div class="col-lg-5">
+                    <div class="glass-card mb-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle" style="min-width:60px"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <h6 style="color:var(--clr-white);margin-bottom:.15rem">Clinic Address</h6>
+                                <p class="mb-0">Chhatarpur, Madhya Pradesh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle" style="min-width:60px"><i class="bi bi-clock-fill"></i></div>
+                            <div>
+                                <h6 style="color:var(--clr-white);margin-bottom:.15rem">Working Hours</h6>
+                                <p class="mb-0">Mon – Sat: 6:30 AM – 8:30 AM<br />Mon – Sat: 6:00 PM – 8:30 PM<br />Sun: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div class="glass-card">
+                        <h4 style="color:var(--clr-white)" class="mb-4">
+                            <i class="bi bi-chat-dots me-2" style="color:var(--clr-primary)"></i>Send Us a Message
+                        </h4>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="contactName">Your Name *</label>
+                                    <input type="text" id="contactName" class="form-control form-control-dark"
+                                        placeholder="Your full name" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="contactEmail">Email *</label>
+                                    <input type="email" id="contactEmail" class="form-control form-control-dark"
+                                        placeholder="you@example.com" required />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="contactSubject">Subject</label>
+                                    <input type="text" id="contactSubject" class="form-control form-control-dark"
+                                        placeholder="How can we help with your child's health?" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="contactMessage">Message *</label>
+                                    <textarea id="contactMessage" rows="5" class="form-control form-control-dark"
+                                        placeholder="Type your message..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn-glow w-100"><i class="bi bi-send"></i> Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section style="padding:0">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.123!2d76.35!3d21.83!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDQ5JzQ4IjAgNzbCsDIxJzAwIg!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            width="100%" height="350" style="border:0;filter:invert(90%) hue-rotate(180deg);" allowfullscreen=""
+            loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5><i class="bi bi-heart-pulse-fill me-1" style="color:var(--clr-primary)"></i> Dr. Tanzeel Fatima</h5>
+                    <p>Dedicated pediatrician providing compassionate, evidence-based healthcare for children.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/services.html">Services</a></li>
+                        <li><a href="/appointment.html">Appointment</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Clinic Hours</h5>
+                    <p>Mon – Sat: 6:30 AM – 8:30 AM<br />Mon – Sat: 6:00 PM – 8:30 PM<br />Sunday: Closed</p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+                    <p><i class="bi bi-geo-alt me-1"></i> Chhatarpur, Madhya Pradesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 Dr. Tanzeel Fatima. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
